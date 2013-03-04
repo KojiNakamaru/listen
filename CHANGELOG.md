@@ -1,3 +1,10 @@
+## 0.7.3 - February 24, 2013
+
+### Bug fix
+
+- [#88] Update wdm dependency. (fixed by [@mrbinky3000][])
+- [#78] Depend on latest rb-inotify. (fixed by [@mbj][])
+
 ## 0.7.2 - January 11, 2013
 
 ### Bug fix
@@ -189,6 +196,7 @@
 [#27]: https://github.com/guard/listen/issues/27
 [#28]: https://github.com/guard/listen/issues/28
 [#32]: https://github.com/guard/listen/issues/32
+[#39]: https://github.com/guard/listen/issues/39
 [#41]: https://github.com/guard/listen/issues/41
 [#61]: https://github.com/guard/listen/issues/61
 [#62]: https://github.com/guard/listen/issues/62
@@ -197,15 +205,19 @@
 [#73]: https://github.com/guard/listen/issues/73
 [#75]: https://github.com/guard/listen/issues/75
 [#76]: https://github.com/guard/listen/issues/76
+[#78]: https://github.com/guard/listen/issues/78
+[#88]: https://github.com/guard/listen/issues/88
 [@Maher4Ever]: https://github.com/Maher4Ever
-[@dkubb]: https://github.com/dkubb
-[@ebroder]: https://github.com/ebroder
 [@akerbos]: https://github.com/akerbos
 [@cobychapple]: https://github.com/cobychapple
 [@daemonza]: https://github.com/daemonza
+[@dkubb]: https://github.com/dkubb
+[@ebroder]: https://github.com/ebroder
 [@fny]: https://github.com/fny
 [@markiz]: https://github.com/markiz
 [@mat813]: https://github.com/mat813
+[@mbj]: https://github.com/mbj
+[@mrbinky3000]: https://github.com/mrbinky3000
 [@napcs]: https://github.com/napcs
 [@netzpirat]: https://github.com/netzpirat
 [@nex3]: https://github.com/nex3
@@ -213,9 +225,8 @@
 [@rymai]: https://github.com/rymai
 [@scottdavis]: https://github.com/scottdavis
 [@sunaku]: https://github.com/sunaku
+[@tarsolya]: https://github.com/tarsolya
 [@textgoeshere]: https://github.com/textgoeshere
 [@thibaudgg]: https://github.com/thibaudgg
-[@tarsolya]: https://github.com/tarsolya
 [@vongruenigen]: https://github.com/vongruenigen
 [@zanker]: https://github.com/zanker
-[WDM]: https://github.com/Maher4Ever/wdm
