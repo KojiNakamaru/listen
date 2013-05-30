@@ -62,6 +62,9 @@ module Listen
       # @see Listen::Adapter#start_worker
       #
       def start_worker
+        worker.tap do |w|
+          at_exit { w.stop }  # might not be necessary because woker.process is not used.
+        end
         @worker_thread = Thread.new do
           until stopped
             worker.poll

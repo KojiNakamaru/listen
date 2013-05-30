@@ -73,6 +73,9 @@ module Listen
       # @see Listen::Adapter#start_worker
       #
       def start_worker
+        worker.tap do |w|
+          at_exit { w.stop }
+        end
         @worker_thread = Thread.new { worker.run }
       end
     end
